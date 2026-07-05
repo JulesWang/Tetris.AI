@@ -1,0 +1,21 @@
+{
+  // 项目名称
+  "name": "tetris-ai-worker",
+  // 入口文件
+  "main": "src/work.js",
+  // 兼容日期
+  "compatibility_date": "2024-01-01",
+  // 环境变量（部署时可在 Cloudflare Dashboard 配置）
+  "vars": {
+    // 豆包 API Key - 建议部署时在 Dashboard 中设置，不要硬编码
+    // "DOUBAO_API_KEY": "your-api-key-here"
+  },
+  "assets": {
+    "directory": "./",
+    "not_found_handling": "single-page-application"
+  },
+  // 开发服务器配置
+  "dev": {
+    "port": 8787
+  }
+}
